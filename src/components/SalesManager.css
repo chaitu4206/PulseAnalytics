@@ -1,0 +1,15 @@
+.sales-manager-panel { margin-top: 24px; }
+.sales-form { margin-top: 18px; }
+.sales-form-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.sales-form-grid label { display: flex; flex-direction: column; gap: 7px; color: #596174; font-size: 13px; font-weight: 600; }
+.sales-form-grid input, .sales-form-grid select { width: 100%; min-width: 0; padding: 10px 11px; border: 1px solid #dfe3ec; border-radius: 8px; background: #fff; color: #20263a; font: inherit; font-weight: 400; }
+.sales-form-grid input:disabled { background: #f3f5f9; color: #777; }
+.sales-form-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+.manager-message { margin: 12px 0; color: #087f5b; font-size: 14px; }
+.manager-error { margin: 12px 0; color: #c0392b; font-size: 14px; }
+.sales-manager-list { margin-top: 24px; }
+.sales-manager-list h4 { margin-bottom: 12px; }
+.manager-row-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.manager-row-actions button { font-size: 12px; padding: 7px 9px; }
+@media (max-width: 900px) { .sales-form-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .sales-form-grid { grid-template-columns: 1fr; } }
